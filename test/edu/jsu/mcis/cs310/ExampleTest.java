@@ -49,4 +49,10 @@ public class ExampleTest {
         assertEquals(expectedReverse3, actual);
     }
     
+    @Test 
+    public void testReverseMessage4(){
+        String actual = main.reverse("Baa Baa Blacksheep");
+        assertEquals("peehskcalB aaB aaB", actual);
+    }
+    
 }
